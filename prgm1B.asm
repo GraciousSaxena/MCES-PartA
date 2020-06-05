@@ -1,4 +1,4 @@
-// A
+// A- 64 bit
 	AREA RESET, CODE
 	LDR R0, =NUM1
 	LDR R1, [R0], #4
@@ -22,7 +22,7 @@ NUM2 DCD &11111111, &33333331
 	END
 	
 	
-// B
+// B- 32 bit
 	AREA RESET, CODE
 	LDR R0, =NUMS
 	LDR R1, [R0], #4
