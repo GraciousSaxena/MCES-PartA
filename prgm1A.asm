@@ -1,4 +1,4 @@
-// A
+// A = B + C - D
   AREA RESET, CODE
 	MOV R0, #0
 	MOV R1, #5
@@ -10,7 +10,7 @@ STOP B STOP
 	END
   
   
-// B
+// A = 2A + B
 	AREA RESET, CODE
 	MOV R0, #4
 	MOV R1, #5
@@ -19,7 +19,7 @@ STOP B STOP
 	END
   
   
-// C
+// A = 3X + 4Y + 9Z
 	AREA RESET, CODE
 	MOV R0, #0
 	MOV R1, #2
